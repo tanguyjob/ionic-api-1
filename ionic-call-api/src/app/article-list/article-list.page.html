@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>List all articles</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">plu</th>
+        <th scope="col">Name</th>
+        <th scope="col">TVA</th>
+        <th scope="col">Age minimum</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of articleData">
+        <button>{{ item.plu }}</button>
+        <td>{{ item.Name }}</td>
+        <td>{{ item.TVA }}</td>
+        <td>{{ item.minimumAge }}</td>
+        <td style="display: flex">
+        <ion-button color="warning" size="small">
+          <ion-icon name="create"></ion-icon>
+        </ion-button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</ion-content>
+<!--https://www.freakyjolly.com/ionic-4-httpclient-crud-service-tutorial-to-consume-restful-server-api/-->
+<!--https://ionicacademy.com/http-calls-ionic/-->

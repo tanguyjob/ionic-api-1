@@ -1,0 +1,31 @@
+{
+  "articles": [
+  {
+    "plu": 1,
+    "name": "Enola Rowe",
+    "TVA": 7,
+    "minimumAge": 8
+  },{
+    "plu": 2,
+    "name": "Timmothy Lueilwitz",
+    "TVA": 15,
+    "minimumAge": 37
+  },{
+    "plu": 3,
+    "name": "Madilyn Pacocha",
+    "TVA": 14,
+    "minimumAge": 9
+  },{
+    "plu": 4,
+    "name": "Harley Cremin",
+    "TVA": 17,
+    "minimumAge": 7
+  },{
+    "plu": 5,
+    "name": "Juana Ziemann",
+    "minimumAge": 16,
+    "TVA": 12
+  }
+  ]
+}
+ 

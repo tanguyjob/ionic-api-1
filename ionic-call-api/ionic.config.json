@@ -1,0 +1,7 @@
+{
+  "name": "ionic-call-api",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
